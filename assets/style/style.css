@@ -1,0 +1,55 @@
+body {
+    background-color:yellow;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+/* Jumbotron */
+
+
+.header{
+    
+    background-color:yellow;
+    text-align:center;
+    margin-bottom:-2vw;
+}
+
+.title{
+    word-spacing:5vw; 
+}
+
+
+
+
+
+
+
+/* Rock - Paper - Scissor Select */
+
+
+/* Button Rock-Paper-Scissors (RPS) choice */
+
+
+
+button{
+
+background-image: url("../images/rock.png");
+background-repeat: no-repeat;
+background-position: center; 
+height: 30vh;
+width: 10vw;
+}
+
+button:hover{
+
+    background:red;
+    
+}
+
+/* Instructions */
+
+.info-paper{
+    margin-bottom: 100px
+    
+}
