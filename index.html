@@ -2,16 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
     <link href = "assets/style/reset.css" rel = "stylesheet" type = "text/css">
     <link href = "assets/style/style.css" rel = "stylesheet" type = "text/css">
     
     
-    <title>Document</title>
+    <title>Rock-Paper-Scissors</title>
 
 </head>
+
 <body>
+
+<!-- Top Jumbotron Header -->
+<header class="jumbotron header">
+    <div class="container">
+      <h1 class="display-2 title">Rock Paper Scissors</h1>
+      <p class="display-4 lead mt-5">Make your choice!</p>
+    </div>
+  
     
+</header>
+
+
+
+
+
+<!-- Rock - Paper - Scissor Select -->
+<section class="container userSelect" >
+
+      <div class="row">
+
+        <!-- Rock -->
+        <div class="col-md-2 align-self-center" >
+            <button class="btnRPS">
+            <!-- <img src="assets/images/rock.png"  alt="Icon of rock"> -->
+            </button>
+        
+  
+        </div>
+
+        <!-- Paper Beats Rock Info -->
+        <div class="col-md-3 align-self-start" >
+            <div class="info-paper">
+              <img src="assets/images/info-paper.png"  alt="Paper Beats Rock" >  
+            </div>
+          
+    
+        </div>
+
+        <!-- Paper -->
+       <div class="col-md-2 align-self-center">
+  
+        <button class="btnRPS">
+            <img src="assets/images/paper.png"  alt="Icon of paper">
+          </div>
+  
+        </button>
+
+        <!-- Scissors Beats Paper Info -->
+        <div class="col-md-3 align-self-start" style = "display:flex; justify-content:center;" >
+            <div class="">
+                <img src="assets/images/info-scissors.png"  alt="Scissors Beats Paper">
+            </div>
+          
+    
+        </div>
+
+        <!-- Scissor -->
+        <div class="col-md-2 align-self-center"  style = "display:flex; justify-content:center;">
+  
+        <button class="btnRPS">
+            <img src="assets/images/scissors.png"  alt="Icon of scissors">
+          </div>
+  
+        </div>
+    
+    </button>
+    
+      <!-- Rock Beats Scissors Row -->
+      <div class="row">
+        <!-- Rock Beats Scissors -->
+        <div class="col-md-12 align-self-start" style = "display:flex; justify-content:center; bottom: 40vh;" >
+            <div class="">
+                <img src="assets/images/info-rock.png"  alt="Rock Beats Scissors">
+            </div>
+          
+        </div>
+
+      </div>
+
+</section>
+
+
+
+
 
 
 <script src="assets/script/script.js" type = "text/javascript"></script>
